@@ -1,0 +1,19 @@
+--- rollenKurator.cabal
+name:           rollenKurator 
+version:        0.0.1
+cabal-version:  => 1.22
+build-type:     Simple
+license:        MIT
+build-depends:  base -any, 
+                binary -any,
+                bytestring -any,
+                cmdargs -any,
+                vector -any, 
+                usb >= 1.3.0.2
+description:    .
+author:         Fred Mitchell
+executable:     rollen-kurator
+main-is:        Main.hs
+buildable:      True
+hs-source-dirs: src
+ghc-options:    -threaded
