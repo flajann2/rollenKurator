@@ -1,0 +1,3 @@
+#!/bin/bash
+# development settings
+export PATH="./.cabal-sandbox/bin:$PATH"
