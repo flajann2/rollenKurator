@@ -1,1 +1,2 @@
-{-# LANGUAGE DeriveDataTypeable #-}
+import Distribution.Simple
+main = defaultMain
