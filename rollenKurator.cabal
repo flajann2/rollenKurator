@@ -14,7 +14,7 @@ maintainer:          fred.mitchell@gmx.de
 category:            Continuous Delivery
 build-type:          Simple
 extra-source-files:  ChangeLog.md, README.org
-cabal-version:       >=1.10
+cabal-version:       >=1.22
 
 executable rollenKurator
   main-is:             Main.hs
