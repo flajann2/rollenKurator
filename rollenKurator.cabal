@@ -1,4 +1,4 @@
---- rollenKurator.cabal
+-- rollenKurator.cabal
 name:           rollenKurator 
 version:        0.0.1
 cabal-version:  => 1.22

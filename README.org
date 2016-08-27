@@ -16,7 +16,7 @@
 
 ** IN PROGRESS
    Your imput is welcome, as always.
-
+   
 ** Linux supported initially
    I am not really interested in supporting Macs nor Windows. However, I will accept
    pull requests for those platforms.
