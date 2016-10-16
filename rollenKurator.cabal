@@ -21,7 +21,7 @@ executable rollenKurator
   -- other-modules:       
   other-extensions:    DeriveDataTypeable
   build-depends:       async -any,
-                       base >=4.8 && <4.9,
+                       base -any,
                        binary -any,
                        bytestring -any,
                        containers -any,
@@ -30,7 +30,6 @@ executable rollenKurator
                        directory -any,
                        cmdargs -any,
                        vector -any, 
-                       usb >= 1.3.0.2,
                        unix -any,
                        deepseq -any,
                        optparse-applicative -any,
