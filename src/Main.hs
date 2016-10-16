@@ -1,4 +1,5 @@
 import System.Environment
+import System.Posix.Pty
 
 -- | Mainly main
 main :: IO ()
