@@ -5,4 +5,3 @@ import System.Posix.Pty
 main :: IO ()
 main = getArgs >>= print . haqify . head
 haqify s = "Hello World " ++ s
-
