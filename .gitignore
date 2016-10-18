@@ -1,3 +1,4 @@
 .cabal-sandbox/
 dist/
-.stack-work/logs/
+.stack-work/
+
