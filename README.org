@@ -1,5 +1,6 @@
-* rollenKurator -- Plugin for Ansible Powerplay for Playbook Visualization
-  This program is being written in Haskell as my first Haskell project, both
+* rollenKurator -- Run multiple commands simultaneously, with seperately paned output
+  This was origally intended as a "plugin" for Ansible Powerplay, but can stand on its
+  own. This is my first Haskell as my first Haskell project, both
   to aid in my learning Haskell and also to do fast handling of the playbook output.
 
   I love Ruby, but for some things I need really fast performance, and if you are
@@ -9,10 +10,21 @@
   Also, this is meant to be an alternative to using Tmux for those not willing
   to tool up in that fashion.
 
-  rollenKurator creates its own 'panes' and tightly interacts with Powerplay. When 
-  this plugin is installed, it will actually run the playbooks instead of Ruby doing it,
-  and will manage the outputs and display them in a paned fashion, do filtering, and the
-  like.
+  rollenKurator creates its own 'panes' and tightly interacts with Powerplay, thoough
+  it can stand alone as well. 
+** Features
+   Here we list some of the many (upcoming) features of rollenKurator.
+
+*** Dynamic Panes
+    Panes are created dynamically as concurrent processed are launched. Panes can
+    have their geometry dymically changed.
+
+*** Filtering
+    Means to filter the output, so that non-revelant content is collapsed. With a keystroke
+    the collapsed text can be expanded.
+
+*** Colored Output maintained
+    The commands are run as pseudo terminals, so that the colored output can be used.
 
 ** IN PROGRESS
    Your imput is welcome, as always.
