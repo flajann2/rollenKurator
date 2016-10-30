@@ -41,3 +41,9 @@
 
 ** Scratchpad
 ** Junkyard
+*** Some stupid code   
+    -- | Mainly main
+    main :: IO ()
+    main = getArgs >>= print . haqify . head
+    haqify s = "Hello World " ++ s
+
