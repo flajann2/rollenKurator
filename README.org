@@ -1,4 +1,7 @@
 * rollenKurator -- Run multiple commands simultaneously, with seperately paned output
+  THIS PROJECT IS MOTHBALLED FOR NOW. NO MORE DEVELOPMENT WILL BE DONE HERE
+  IN A LONG-ASS TIME.
+
   This was origally intended as a "plugin" for Ansible Powerplay, but can stand on its
   own. This is my first Haskell as my first Haskell project, both
   to aid in my learning Haskell and also to do fast handling of the playbook output.
@@ -27,7 +30,7 @@
     The commands are run as pseudo terminals, so that the colored output can be used.
 
 ** IN PROGRESS
-   Your imput is welcome, as always.
+   Your input is welcome, as always.
    
 ** Linux supported initially
    I am not really interested in supporting Macs nor Windows. However, I will accept
@@ -37,7 +40,6 @@
    | Version                  | Details       |
    |--------------------------+---------------|
    | Nothing to see here yet. | Move it along |
-   |                          |               |
 
 ** Scratchpad
 ** Junkyard
